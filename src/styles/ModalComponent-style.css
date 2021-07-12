@@ -1,0 +1,33 @@
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    background:
+      linear-gradient(gray, transparent),
+      linear-gradient(to top left, gray, transparent),
+      linear-gradient(to top right, whitesmoke, transparent);
+    background-blend-mode: lighten;
+}
+
+.modal-container h2 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.modal-close-btn {
+    align-self: flex-end;
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+
+.modal-overflow {
+    margin: auto;
+    height: 400px;
+    overflow: scroll;
+}
+
+.modal-table {
+    margin: 10px;
+    width: 500px;
+}

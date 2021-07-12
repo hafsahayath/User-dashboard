@@ -1,0 +1,23 @@
+.listing-customers-components{
+    display: flex;
+    flex-direction: column;
+}
+
+.listing-customers-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.listing-customers-top input {
+    border-radius: 8px;
+    background-color: white;
+    border: transparent;
+    border-style: none;
+    padding: 5px 40px;
+}
+
+.listing-customers-top input:focus {
+    outline: none;
+}
+
